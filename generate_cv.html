@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CV Generator - Generate CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="generate_cv.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="profile.html">User Profile</a></li>
+                <li><a href="cv_template.html">CV Template</a></li>
+                <li><a href="cv_preview.html">CV Preview</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cv-generator">
+            <div class="container">
+                <h2>Create a new CV</h2>
+                <form action="#" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address">
+                    <label for="summary">Summary</label>
+                    <textarea id="summary" name="summary"></textarea>
+                    <label for="education">Education</label>
+                    <textarea id="education" name="education"></textarea>
+                    <label for="experience">Experience</label>
+                    <textarea id="experience" name="experience"></textarea>
+                    <button type="submit">Generate CV</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 CV Generator. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
